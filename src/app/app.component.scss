@@ -1,0 +1,33 @@
+#wrapper {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+}
+
+button {
+    width: 100%;
+}
+
+.robot {
+    width: 250px;
+}
+
+.program-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.program-card {
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.run-button:hover {
+    cursor: pointer;
+    color: rgb(71, 194, 71);
+}
